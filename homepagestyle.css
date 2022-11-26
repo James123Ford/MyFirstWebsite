@@ -1,0 +1,208 @@
+@font-face{
+    font-family: myFont;
+    src:url( 'https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #222222;
+}
+#realbody{
+    background-color: #222222;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#backimg{
+    
+    width: 100%;
+    height: 80%;
+    background-image: url(images/main\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#nav1 {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 5%;
+    position: relative;
+    left: -2%;
+    
+}
+#nav1 li {
+   
+    display: inline-block; 
+    padding: 0.6%;
+    font-size: 150%; 
+}
+#nav1 li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ 
+}
+#nav1 li a img {
+    position: relative;
+    left:-550% ;
+    top: 170%;
+    width: 300px;
+    height: 300px;
+    
+    
+ 
+
+}
+#main-text{
+    display: flex;
+    justify-content:center;
+    position:relative;
+    top:60%;
+    left: -1%;
+    font-size: 80px;
+    text-shadow:  10px 0px 3px  black;
+    
+   
+   
+    color: white;
+    
+}
+#tourst-types{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 65%;
+    font-size:35px;
+    
+  
+    
+    
+
+}
+#tourst-types li {
+    display: inline-block; 
+   margin: 20px;
+   
+    
+}
+#tourst-types li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid ;
+    border-radius: 100px;
+    background-color: aliceblue;
+    color:black; 
+    padding: 20px 70px;
+    
+}
+
+#typeoftourism{   
+    
+    height: 6%;
+    width: 100%;
+    
+    
+}
+
+#typeoftoursimtext{
+    position: relative;
+    left: 4%;
+    color: gold;
+    width: 100%;
+   
+
+}
+#cards{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+  
+
+    
+}
+
+
+#theholder{
+    
+    position: relative;
+    left: 3%;
+    height: 60%;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    
+}
+
+
+#thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    transform-style: preserve-3d ;
+    transition: all 1s ease;
+}
+#thecard:hover{
+    transform: rotateY(180deg);
+}
+#thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 16, 224);
+    border-radius: 30px;
+    backface-visibility:hidden;
+    
+}
+#thefront img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 17, 97);
+    border-radius: 30px;
+    transform: rotateY(180deg);
+    backface-visibility:hidden;
+    box-shadow: 2px 2px 2px 2px;
+    
+}
+
+
+
+#theback img{
+    width: 100%;
+    height: 40%;
+    border-radius: 30px;
+    }
+#theback h1{
+        position: relative;
+        top: 1%;
+        left: 35%;
+        font-style: italic;
+        width: 36%;
+        height: 5%;
+        background-color: aliceblue;
+        
+}
+#theback p {
+        position: relative;
+        top: 4%;
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        color: black; 
+    }
